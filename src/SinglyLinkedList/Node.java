@@ -6,6 +6,10 @@ package SinglyLinkedList;
 public class Node {
     private Node node;
     private Integer value;
+    
+    public String toString(){
+    	return "Value: " + value;
+    }
 
     public Node(int value){
         this.value = value;
@@ -26,4 +30,11 @@ public class Node {
     public void setValue(Integer value){
         this.value = value;
     }
+
+	public Integer getValue() {
+		return value;
+	}
+    
+    
+   
 }
